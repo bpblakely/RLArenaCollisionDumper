@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 
 	LOG("Looking for Rocket League...");
 
-	// Find Rocket League process by the executable name
+	// Find Rocket League process by the executable name (yep)
 	DWORD pid = NULL;
 	while (pid == NULL) {
 		pid = Memory::FindProcess("RocketLeague.exe");
